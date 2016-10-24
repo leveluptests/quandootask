@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A7A0A5B9F05CC0E7A1BA56A /* Pods_QuandooTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52DECF07CBF7D77004C6796 /* Pods_QuandooTask.framework */; };
+		481D82481DBE859900B651B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481D82471DBE859900B651B1 /* AppDelegate.swift */; };
+		481D824D1DBE859900B651B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 481D824B1DBE859900B651B1 /* Main.storyboard */; };
+		481D824F1DBE859900B651B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 481D824E1DBE859900B651B1 /* Assets.xcassets */; };
+		481D82521DBE859900B651B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 481D82501DBE859900B651B1 /* LaunchScreen.storyboard */; };
+		48D0D5351DBE88B1005BC7EE /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D0D5341DBE88B1005BC7EE /* UsersTableViewController.swift */; };
+		48D0D5371DBE88D2005BC7EE /* UserPostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D0D5361DBE88D2005BC7EE /* UserPostsTableViewController.swift */; };
+		48D0D5391DBE88E9005BC7EE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D0D5381DBE88E9005BC7EE /* User.swift */; };
+		48D0D53B1DBE88F2005BC7EE /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D0D53A1DBE88F2005BC7EE /* Post.swift */; };
+		48D0D53D1DBE890E005BC7EE /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D0D53C1DBE890E005BC7EE /* UserTableViewCell.swift */; };
+		48D0D53F1DBE8919005BC7EE /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D0D53E1DBE8919005BC7EE /* PostTableViewCell.swift */; };
+		48D0D5421DBE8CFE005BC7EE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D0D5411DBE8CFE005BC7EE /* NetworkManager.swift */; };
+		48D0D5441DBE8DF9005BC7EE /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D0D5431DBE8DF9005BC7EE /* Routes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		481D82441DBE859800B651B1 /* QuandooTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuandooTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		481D82471DBE859900B651B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		481D824C1DBE859900B651B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		481D824E1DBE859900B651B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		481D82511DBE859900B651B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		481D82531DBE859900B651B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48D0D5341DBE88B1005BC7EE /* UsersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		48D0D5361DBE88D2005BC7EE /* UserPostsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPostsTableViewController.swift; sourceTree = "<group>"; };
+		48D0D5381DBE88E9005BC7EE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		48D0D53A1DBE88F2005BC7EE /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		48D0D53C1DBE890E005BC7EE /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		48D0D53E1DBE8919005BC7EE /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		48D0D5411DBE8CFE005BC7EE /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		48D0D5431DBE8DF9005BC7EE /* Routes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
+		617AF810DF4427D73633A180 /* Pods-QuandooTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuandooTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuandooTask/Pods-QuandooTask.debug.xcconfig"; sourceTree = "<group>"; };
+		B49CAFD9E21302A3F71F80FD /* Pods-QuandooTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuandooTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuandooTask/Pods-QuandooTask.release.xcconfig"; sourceTree = "<group>"; };
+		F52DECF07CBF7D77004C6796 /* Pods_QuandooTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuandooTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		481D82411DBE859800B651B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7A0A5B9F05CC0E7A1BA56A /* Pods_QuandooTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27EA94EA8198502618B1CA22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F52DECF07CBF7D77004C6796 /* Pods_QuandooTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		481D823B1DBE859800B651B1 = {
+			isa = PBXGroup;
+			children = (
+				481D82461DBE859800B651B1 /* QuandooTask */,
+				481D82451DBE859800B651B1 /* Products */,
+				7CA11AC3F8B972F7CDCBC16D /* Pods */,
+				27EA94EA8198502618B1CA22 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		481D82451DBE859800B651B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				481D82441DBE859800B651B1 /* QuandooTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		481D82461DBE859800B651B1 /* QuandooTask */ = {
+			isa = PBXGroup;
+			children = (
+				48D0D5321DBE8819005BC7EE /* Models */,
+				48D0D5401DBE8CDB005BC7EE /* Network */,
+				48D0D5331DBE8849005BC7EE /* CustomViews */,
+				48D0D5311DBE879F005BC7EE /* ViewControllers */,
+				481D82471DBE859900B651B1 /* AppDelegate.swift */,
+				481D824B1DBE859900B651B1 /* Main.storyboard */,
+				481D824E1DBE859900B651B1 /* Assets.xcassets */,
+				481D82501DBE859900B651B1 /* LaunchScreen.storyboard */,
+				481D82531DBE859900B651B1 /* Info.plist */,
+			);
+			path = QuandooTask;
+			sourceTree = "<group>";
+		};
+		48D0D5311DBE879F005BC7EE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				48D0D5341DBE88B1005BC7EE /* UsersTableViewController.swift */,
+				48D0D5361DBE88D2005BC7EE /* UserPostsTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		48D0D5321DBE8819005BC7EE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				48D0D5381DBE88E9005BC7EE /* User.swift */,
+				48D0D53A1DBE88F2005BC7EE /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		48D0D5331DBE8849005BC7EE /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				48D0D53C1DBE890E005BC7EE /* UserTableViewCell.swift */,
+				48D0D53E1DBE8919005BC7EE /* PostTableViewCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		48D0D5401DBE8CDB005BC7EE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				48D0D5411DBE8CFE005BC7EE /* NetworkManager.swift */,
+				48D0D5431DBE8DF9005BC7EE /* Routes.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7CA11AC3F8B972F7CDCBC16D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				617AF810DF4427D73633A180 /* Pods-QuandooTask.debug.xcconfig */,
+				B49CAFD9E21302A3F71F80FD /* Pods-QuandooTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		481D82431DBE859800B651B1 /* QuandooTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 481D82561DBE859900B651B1 /* Build configuration list for PBXNativeTarget "QuandooTask" */;
+			buildPhases = (
+				4C6ABC8389B17948A5DB4DE3 /* 📦 Check Pods Manifest.lock */,
+				481D82401DBE859800B651B1 /* Sources */,
+				481D82411DBE859800B651B1 /* Frameworks */,
+				481D82421DBE859800B651B1 /* Resources */,
+				805C05E7C25DA148369D6456 /* 📦 Embed Pods Frameworks */,
+				34E2AC5232C9440A0C72DFB0 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuandooTask;
+			productName = QuandooTask;
+			productReference = 481D82441DBE859800B651B1 /* QuandooTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		481D823C1DBE859800B651B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Helder Pereira";
+				TargetAttributes = {
+					481D82431DBE859800B651B1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 481D823F1DBE859800B651B1 /* Build configuration list for PBXProject "QuandooTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 481D823B1DBE859800B651B1;
+			productRefGroup = 481D82451DBE859800B651B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				481D82431DBE859800B651B1 /* QuandooTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		481D82421DBE859800B651B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481D82521DBE859900B651B1 /* LaunchScreen.storyboard in Resources */,
+				481D824F1DBE859900B651B1 /* Assets.xcassets in Resources */,
+				481D824D1DBE859900B651B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34E2AC5232C9440A0C72DFB0 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuandooTask/Pods-QuandooTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C6ABC8389B17948A5DB4DE3 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		805C05E7C25DA148369D6456 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuandooTask/Pods-QuandooTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		481D82401DBE859800B651B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D0D53F1DBE8919005BC7EE /* PostTableViewCell.swift in Sources */,
+				48D0D5391DBE88E9005BC7EE /* User.swift in Sources */,
+				48D0D5351DBE88B1005BC7EE /* UsersTableViewController.swift in Sources */,
+				48D0D5371DBE88D2005BC7EE /* UserPostsTableViewController.swift in Sources */,
+				48D0D5441DBE8DF9005BC7EE /* Routes.swift in Sources */,
+				48D0D5421DBE8CFE005BC7EE /* NetworkManager.swift in Sources */,
+				481D82481DBE859900B651B1 /* AppDelegate.swift in Sources */,
+				48D0D53D1DBE890E005BC7EE /* UserTableViewCell.swift in Sources */,
+				48D0D53B1DBE88F2005BC7EE /* Post.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		481D824B1DBE859900B651B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				481D824C1DBE859900B651B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		481D82501DBE859900B651B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				481D82511DBE859900B651B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		481D82541DBE859900B651B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		481D82551DBE859900B651B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		481D82571DBE859900B651B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 617AF810DF4427D73633A180 /* Pods-QuandooTask.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuandooTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pt.reality6.QuandooTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		481D82581DBE859900B651B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B49CAFD9E21302A3F71F80FD /* Pods-QuandooTask.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuandooTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pt.reality6.QuandooTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		481D823F1DBE859800B651B1 /* Build configuration list for PBXProject "QuandooTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				481D82541DBE859900B651B1 /* Debug */,
+				481D82551DBE859900B651B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		481D82561DBE859900B651B1 /* Build configuration list for PBXNativeTarget "QuandooTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				481D82571DBE859900B651B1 /* Debug */,
+				481D82581DBE859900B651B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 481D823C1DBE859800B651B1 /* Project object */;
+}

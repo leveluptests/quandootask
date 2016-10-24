@@ -1,0 +1,6 @@
+framework module Pods_QuandooTask {
+  umbrella header "Pods-QuandooTask-umbrella.h"
+
+  export *
+  module * { export * }
+}
